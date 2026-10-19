@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>P&M Support Desk</title>
+
+  <!-- Real PWA & Fullscreen Standalone App Configuration -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="P&M Support">
+  <meta name="theme-color" content="#008069">
+
+  <!-- App Icons -->
+  <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/2855/2855581.png">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2855/2855581.png">
+
+  <!-- Manifest Data-URI (Chrome PWA Installation Trigger) -->
+  <link rel="manifest" href='data:application/manifest+json,{"name":"P%26M Technical Support - Lakhwar","short_name":"P%26M Desk","start_url":".","display":"standalone","orientation":"portrait","background_color":"#efeae2","theme_color":"#008069","icons":[{"src":"https://cdn-icons-png.flaticon.com/512/2855/2855581.png","sizes":"512x512","type":"image/png"}]}'>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      overflow: hidden;
+      background-color: #008069;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbyVKmZwc0WgbUGO4OfPMV_1kG2JyNHUORQv0E6yGcG2ihJNTHi5f56HjnzuBvtZ_lHe/exec" 
+    allow="geolocation; camera; microphone; clipboard-read; clipboard-write;"
+    sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-modals allow-downloads">
+  </iframe>
+</body>
+</html>
